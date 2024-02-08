@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+    text-align: center;
+    margin: 15px;
+}
+.stickers {
+    display: flex;
+    justify-content: center;
+
+}
+.unit {
+    display: flex;
+    flex-direction: column;
+}
+.stickers img {
+    width: 300px;
+    height: 300px;
+}
+.mensaje {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+.bton {
+    padding: 0.5rem 2rem;
+    margin-top: 0.5rem;
+}
+.follow {
+    display: flex;
+    justify-content: space-between;
+}
+.index {
+    padding: 10px 34px;
+}
